@@ -8,6 +8,15 @@
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    width: 12px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #201156; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded corners */
+}
+
 ::placeholder{
     color: black !important;
 }
@@ -321,6 +330,14 @@ nav{
     .app-img img {
         width: 300px !important;
         height: 330px !important;
+    }
+
+    .button-footer {
+        font-size: 15px;
+    }
+
+    .copyright{
+        margin-top:1rem !important;
     }
 }
 /* responsive End */
